@@ -1,9 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+hills:
+  name: hills
+  author: jack
 
-one:
-  name: MyString
-  author: one
+pails:
+  name: pails
+  author: jill
 
-two:
-  name: MyString
-  author: two
+water:
+  name: water
+  author: jack
+
+crown:
+  name: crown
+  author: jill
+
+tumbling:
+  name: tumbling
+  author: jack

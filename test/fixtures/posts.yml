@@ -1,11 +1,11 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+caution:
+  title: Avoid the hill!
+  body: Turns out, it's really easy to fall down the hill and break your crown
+  author: jack
+  tags: hills, crown, tumbling
 
-one:
-  title: MyString
-  body: MyText
-  author: one
-
-two:
-  title: MyString
-  body: MyText
-  author: two
+plumbing:
+  title: We need water supply
+  body: It's ridiculous we're still fetching water with a pail, we need plumbing
+  author: jill
+  tags: water, pails

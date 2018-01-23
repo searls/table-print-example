@@ -1,11 +1,9 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+jack:
+  name: Jack
+  email: jack@example.com
+  birthday: 1961-09-20
 
-one:
-  name: MyString
-  email: MyString
-  birthday: 2018-01-23
-
-two:
-  name: MyString
-  email: MyString
-  birthday: 2018-01-23
+jill:
+  name: Jill
+  email: jill@example.com
+  birthday: 1980-04-02
