@@ -4,8 +4,26 @@ caution:
   author: jack
   tags: hills, crown, tumbling
 
+pails:
+  title: 2018 Pail Coupon Codes
+  body: Stop paying full price for pails, enter coupon code 20OFF for 20% off!
+  author: jack
+  tags: pails
+
 plumbing:
   title: We need water supply
   body: It's ridiculous we're still fetching water with a pail, we need plumbing
   author: jill
   tags: water, pails
+
+sledding:
+  title: Sledding 101
+  body: In winter, some people intentionally tumble down hills by riding a sled
+  author: jill
+  tags: hills, tumbling
+
+crowns:
+  title: What even is a crown?
+  body: People don't say crown much any more, so what does it mean to break it?
+  author: jill
+  tags: crown
