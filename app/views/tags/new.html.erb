@@ -1,5 +1,26 @@
+<div class='flash'><%= flash[:notice] %></div>
+
 <h1>New Tag</h1>
 
-<%= render 'form', tag: @tag %>
+<%= form_for Tag.new do |form| %>
+  <div class="field">
+    <%= label :tag_name, "Tag Name" %>
+    <%= text_field_tag :tag_name %>
+  </div>
+
+  <div class="field">
+    <%= label :author_id, "Author" %>
+    <%= collection_select(:author, :author_id, Author.all, :id, :name) %>
+  </div>
+
+  <div class="field">
+    <%= label :post_id, "Post" %>
+    <%= collection_select(:post, :post_id, Post.all, :id, :title) %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
 
 <%= link_to 'Back', tags_path %>

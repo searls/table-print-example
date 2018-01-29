@@ -3,6 +3,6 @@
 <h1>Tag Summary</h1>
 
 <pre><%= TablePrint::Printer.new(Author.all,
-                              [:email, 'posts.title', 'posts.tags.name']).table_print
-%></pre>
+  [:name, 'posts.title', 'posts.tags.name', 'posts.tags.author.name']
+).table_print %></pre>
 
